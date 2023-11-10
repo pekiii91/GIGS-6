@@ -1,0 +1,22 @@
+{
+    "name": "ol-layerswitcher-parcel",
+    "version": "1.0.0",
+    "description": "Example using ol and ol-layerswitcher with Parcel",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "parcel index.html",
+        "build": "parcel build --public-url . index.html"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+        "@babel/core": "^7.16.0",
+        "ol": "^6.9.0",
+        "ol-layerswitcher": "^3.8.3",
+        "olgm": "^1.7.1",
+        "proj4": "^2.7.5"
+    }
+}
